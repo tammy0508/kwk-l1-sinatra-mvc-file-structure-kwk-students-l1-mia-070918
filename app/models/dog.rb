@@ -1,9 +1,9 @@
 class Dog
-  # Replace with Dog clas 
+  # Replace with Dog clas
   def initialize (name, breed, age)
-    @name=name 
+    @name=name
     @breed=breed
     @age=age
-  end 
+  end
 attr_accessor :name, :breed, :age
 end
