@@ -1,7 +1,7 @@
 class Dog
   # Replace with Dog class
   attr_accessor :name, :breed, :age
-  
+
   @@all=[]
 
   def initialize (name, breed, age)
@@ -17,3 +17,5 @@ class Dog
 
 end
 
+rudy = Dog.new("rudy", "german", "2")
+bob = Dog.new("bob", "pitbull", "3")
