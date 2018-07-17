@@ -1,19 +1,19 @@
 class Dog
   # Replace with Dog class
-  all=[]
-  def self.all
-
-  end
+  attr_accessor :name, :breed, :age
+  
+  @@all=[]
 
   def initialize (name, breed, age)
     @name=name
-    all << name
+    @@all << name
     @breed=breed
     @age=age
   end
 
-attr_accessor :name, :breed, :age
+  def self.all
+    @@all
+  end
+
 end
 
-first_dog= Dog.new (lucy ,golden retriver, 13 )
-puts all.inspect 
