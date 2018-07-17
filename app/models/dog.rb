@@ -6,9 +6,9 @@ class Dog
 
   def initialize (name, breed, age)
     @name=name
-    @@all << name
     @breed=breed
     @age=age
+    @@all << name
   end
 
   def self.all
