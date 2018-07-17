@@ -20,4 +20,4 @@ end
 rudy = Dog.new("rudy", "german", "2")
 bob = Dog.new("bob", "pitbull", "3")
 
-puts Dog.all
+puts rudy.all
